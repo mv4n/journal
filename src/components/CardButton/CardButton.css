@@ -1,0 +1,26 @@
+.card-button {
+    border-radius: 3px;
+    background-color: #939393;
+    color: #FFF;
+    padding: 20px;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    display: block;
+    /*font-family: inherit;*/
+    font-family: "Inter", sans-serif;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.card-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.card-button {
+    margin-top: 15px;
+}
+
+.card-button + .card-button {
+    margin-top: 15px;
+}
